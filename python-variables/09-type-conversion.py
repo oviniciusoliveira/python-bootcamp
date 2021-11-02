@@ -1,0 +1,35 @@
+# int()
+# float()
+# str()
+# bool()
+
+number_input = input("number: ")
+print(type(number_input))
+
+number_input = int(number_input)
+print(type(number_input))
+
+# Falsy Values
+print(bool(0))
+print(bool(0.0))
+print(bool(''))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+print(bool(set()))
+print(bool(complex()))
+print(bool(range()))
+print(bool(False))
+print(bool(None))
+
+# Truthy Values
+print(bool(1))
+print(bool(1.0))
+print(bool('a'))
+print(bool((1,)))
+print(bool([1]))    
+print(bool({1}))
+print(bool(set([1])))
+print(bool(complex(1)))
+print(bool(range(1)))
+print(bool(True))
