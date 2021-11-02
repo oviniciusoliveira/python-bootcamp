@@ -18,6 +18,11 @@ city = 'Moscow'
 full_address = city + ', ' + country
 print(full_address)
 
+# String formatting
+print('{}, {}'.format(city, country))
+print('{1}, {0}'.format(country, city))
+print('{}, {}, {}'.format(city, country, 'Russia'))
+
 # upper()
 print(address.upper())
 
